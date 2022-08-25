@@ -237,12 +237,12 @@ flowchart TD
 flowchart TD
     s(start)
     input[/输入/]
-    check{$CR < 0.1$}
-    cal_lambda[计算最大特征值$\lambda_{max}$]
-    cal_CR[计算指标$CR$]
+    check{CR < 0.1}
+    cal_lambda[计算最大特征值]
+    cal_CR[计算指标CR]
     output[\输出结果\]
     o([over])
-    s --> input --> cal_lambda -- $\lambda_{max}$, 阶数n --> cal_CR --> check -- Yes -->  output --> o
+    s --> input --> cal_lambda -- 特征值, 阶数n --> cal_CR --> check -- Yes -->  output --> o
     check -- No --> output
 ```
 

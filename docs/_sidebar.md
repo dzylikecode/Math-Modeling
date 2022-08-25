@@ -1,6 +1,7 @@
 - [前言](/README.md)
 - [课表](/schedule.md)
 - [论文模板](/article-template/README.md)
+- [论文技巧](/article/README.md)
 - 层次分析法
   - [模型](ch01/README.md)
   - [数学知识](ch01/math/README.md)
